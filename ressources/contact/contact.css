@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.8;
+}
+
+li {
+        line-height: 2;
+}
+/* Navigation Styles */
+header.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .navdiv {
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+li.nav {
+    list-style: none;
+    display: inline-block;
+}
+
+header .logo {
+    width: 150px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Title */
+
+.title h1 {
+    text-align: center;
+    color: rgba(25, 21, 231, 1);
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 5rem;
+    letter-spacing: 10px;
+    font-weight: 200;
+}
+
+@media (max-width: 480px) {
+    .title h1 {
+        text-align: left;
+    }
+}
+
+/* Sections */
+
+section {
+    text-align: left;
+    margin: 4rem 2rem;
+}
+
+section h2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: 200;
+    margin-left: 2rem;
+}
+
+@media (max-width: 480px) {
+    section h2 {
+        margin-left: 0;
+    }
+
+    section {
+        margin-right: 0;
+    }
+}
+
+div.office-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.office-content {
+    margin: 0 2rem;
+}
+
+.location {
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+}
