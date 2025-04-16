@@ -164,7 +164,6 @@ li.panel {
 
     .fresque img {
         width: 100%;
-        height: 20em;
         object-fit: scale-down;
         /*opacity: 40%;*/
     }
