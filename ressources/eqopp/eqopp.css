@@ -144,7 +144,9 @@ h3.break {
 }
 
 li.panel {
-    left-margin: 6em;
+    font-size: 20px;
+    margin-left: 6em;
+    list-style: none;
 }
 
 
